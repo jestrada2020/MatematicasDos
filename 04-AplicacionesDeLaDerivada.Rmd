@@ -1,0 +1,29 @@
+# Aplicaciones de la Derivada
+
+
+## Ejemplo1 Optimización
+
+
+```{r , echo=FALSE}
+library(knitr)
+knitr::include_app("https://johnestradaclases.shinyapps.io/Aplicacion2MaximaArea/",height = "1000px")
+```
+
+
+## Ejemplo2 Optimización
+
+```{r , echo=FALSE}
+library(knitr)
+knitr::include_app("https://johnestradanclase.shinyapps.io/ProblemaOptimizacion3/",height = "1000px")
+```
+
+
+
+
+## Ejemplo3 Optimización
+
+
+
+
+
+
