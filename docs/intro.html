@@ -579,14 +579,15 @@ Figura 2.7: Teorema para la traslación de una función [Imagen tomada de <span 
 <!-- ```{r} -->
 <!-- library(tinytex) -->
 <!-- ``` -->
-<p>units &lt;1cm,1cm&gt;
-x from -1 to 5, y from -1 to 2
-ejesej2.tex
-
-[rt] &lt;3cm,-.2cm&gt; at 1 1
- at 1 1
-bottom label {Texto en un dibujo} invisible /
-</p>
+<!-- \beginpicture -->
+<!-- \setcoordinatesystem units <1cm,1cm> -->
+<!-- \setplotarea x from -1 to 5, y from -1 to 2 -->
+<!-- \input ejesej2.tex -->
+<!-- \put {TEXTO} -->
+<!-- [rt] <3cm,-.2cm> at 1 1 -->
+<!-- \put {$\bullet$} at 1 1 -->
+<!-- \axis bottom label {Texto en un dibujo} invisible / -->
+<!-- \endpicture -->
 </div>
 <div id="ejemplos-básicos-1" class="section level2 hasAnchor" number="2.10">
 <h2><span class="header-section-number">2.10</span> Ejemplos básicos<a href="intro.html#ejemplos-básicos-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -782,9 +783,8 @@ m(50)=\dfrac{1}{2}\left(\dfrac{1}{2}(24)\right)=\dfrac{1}{2^2}(24)\\
 m(75)=\dfrac{1}{2}\left(\dfrac{1}{2^2}(24)\right)=\dfrac{1}{2^3}(24)\\
 m(100)=\dfrac{1}{2}\left(\dfrac{1}{2^3}(24)\right)=\dfrac{1}{2^4}(24)\\
 \]</span></p>
-<p>Y también conocemos que <span class="math inline">\(4=\dfrac{100}{25}\)</span>, <span class="math inline">\(3=\dfrac{75}{25}\)</span>, <span class="math inline">\(2=\dfrac{50}{25}\)</span>. De donde</p>
-<p>En general
-<span class="math display">\[m(t)=\dfrac{1}{2^{t/25}}(24)=24.2^{-t/25} \qquad \text{cantidad de masa en cualquier instánte de tiempo } \ \ t.\]</span></p>
+<p>Y también conocemos que <span class="math inline">\(4=\dfrac{100}{25}\)</span>, <span class="math inline">\(3=\dfrac{75}{25}\)</span>, <span class="math inline">\(2=\dfrac{50}{25}\)</span>. De donde se puede expresar de forma general la siguiente fórmula:</p>
+<p><span class="math display">\[m(t)=\dfrac{1}{2^{t/25}}(24)=24.2^{-t/25} \qquad \text{cantidad de masa en cualquier instánte de tiempo } \ \ t.\]</span></p>
 <p><br></br></p>
 </div>
 <div id="ecuación-logaritmica" class="section level2 hasAnchor" number="2.22">

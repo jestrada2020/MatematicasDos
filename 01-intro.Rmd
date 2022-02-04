@@ -479,15 +479,15 @@ knitr::include_graphics("images/MovimientoDeUnaFuncion3.jpg")
 
 <!-- ``` -->
 
-\beginpicture
-\setcoordinatesystem units <1cm,1cm>
-\setplotarea x from -1 to 5, y from -1 to 2
-\input ejesej2.tex
-\put {TEXTO}
-[rt] <3cm,-.2cm> at 1 1
-\put {$\bullet$} at 1 1
-\axis bottom label {Texto en un dibujo} invisible /
-\endpicture
+<!-- \beginpicture -->
+<!-- \setcoordinatesystem units <1cm,1cm> -->
+<!-- \setplotarea x from -1 to 5, y from -1 to 2 -->
+<!-- \input ejesej2.tex -->
+<!-- \put {TEXTO} -->
+<!-- [rt] <3cm,-.2cm> at 1 1 -->
+<!-- \put {$\bullet$} at 1 1 -->
+<!-- \axis bottom label {Texto en un dibujo} invisible / -->
+<!-- \endpicture -->
 
 
 
@@ -799,10 +799,9 @@ m(75)=\dfrac{1}{2}\left(\dfrac{1}{2^2}(24)\right)=\dfrac{1}{2^3}(24)\\
 m(100)=\dfrac{1}{2}\left(\dfrac{1}{2^3}(24)\right)=\dfrac{1}{2^4}(24)\\
 \]
 
-Y también conocemos que $4=\dfrac{100}{25}$, $3=\dfrac{75}{25}$, $2=\dfrac{50}{25}$. De donde
+Y también conocemos que $4=\dfrac{100}{25}$, $3=\dfrac{75}{25}$, $2=\dfrac{50}{25}$. De donde se puede expresar de forma general la siguiente fórmula:
 
 
-En general
 $$m(t)=\dfrac{1}{2^{t/25}}(24)=24.2^{-t/25} \qquad \text{cantidad de masa en cualquier instánte de tiempo } \ \ t.$$
 
 
