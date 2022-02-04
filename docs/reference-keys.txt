@@ -201,3 +201,9 @@ ecuación-exponencial
 ecuación-logaritmica
 sistemas-de-ecuaciones-exponenciales-y-logaritmicas
 talleres-evaluativos
+def:unnamed-chunk-5
+exm:unnamed-chunk-7
+exm:unnamed-chunk-8
+exm:unnamed-chunk-14
+exm:unnamed-chunk-16
+exm:unnamed-chunk-18

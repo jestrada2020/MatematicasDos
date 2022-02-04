@@ -117,7 +117,7 @@ Usando la técnica del despeje.
 <br></br>
 
 
-```{solution}
+
 Recordar para obtener el dominio de una función se debe despejar la letra dependiente $y$ de ser necesario; pero en este caso no fue necesario ya que el enunciado entrega la letra $y$ despejada, y ya que es una fracción, el problema se concentra en el análisis de donde se vuelve cero el denominador. Como el denominador se vuelve cero en $x=3$, podemos concluir que el dominio para esta función es:
 
 \[
@@ -141,7 +141,7 @@ Como el proceso de despeje genero una fracción entonces el análisis para el ra
 \[
 R_f: \ y \in R-\{2\}  \qquad \text{ ó equivalentemente } \qquad R_f: \ y\in (-\infty,2)\cup (2,+\infty)
 \]
-```
+
 
 
 <br></br>
@@ -163,7 +163,7 @@ Usando la técnica del despeje.
 <br></br>
 
 
-```{solution}
+
 Recordar para obtener el dominio de una función se debe despejar la letra dependiente $y$ de ser necesario; pero en este caso no fue necesario ya que el enunciado entrega la letra $y$ despejada, y ya que es una raíz cuadrada, el problema se concentra en el análisis de donde se vuelve cero y positivo el radicando (e.d. la expresión que esta dentro de la raíz). En términos de desigualdades:
   
 \[
@@ -191,7 +191,7 @@ Como el proceso de despeje genero un polinomio en la variable dependiente $y$, e
 \[
 R_f: \ y \in R^{+}\cup \{0\}  \qquad \text{ ó equivalentemente } \qquad R_f: \ y\in [0,+\infty)
 \]
-```
+
 
 
 <br></br>
@@ -210,7 +210,7 @@ Usando la técnica del despeje.
 ```
 
 
-```{solution}
+
 Recordar para obtener el dominio de una función se debe despejar la letra dependiente $y$ de ser necesario; pero en este caso no fue necesario ya que el enunciado entrega la letra $y$ despejada, y ya que es una raíz cuadrada, el problema se concentra en el análisis de donde se vuelve cero y positivo el radicando (e.d. la expresión que esta dentro de la raíz). En términos de desigualdades:
   
 \[
@@ -234,7 +234,11 @@ Entonces
 \[
 R_f: \ y\in [3,+\infty)
 \]
-```
+
+
+
+
+
 
 
 <br></br>
@@ -252,7 +256,6 @@ Sean $f$ y $g$ dos funciones, entonces la suma $f+g$, la diferencia $f-g$, el pr
 \left(\dfrac{f}{g}\right)(x) & = \dfrac{f(x)}{g(x)}; \qquad \text{ siempre que } \quad g(x) \neq 0
 \end{split}
 \end{equation}
-
 
 ```
 
@@ -693,7 +696,7 @@ Obtener la solución para la ecuación
 
 <br></br>
 
-```{solution}
+
 
 Sabemos que $1=3^{0}$
   
@@ -713,7 +716,6 @@ x=2
 
 Se concluye que la solución para la ecuación es $x=2$.
 
-```
 
 <br></br>
 
@@ -729,7 +731,7 @@ Obtener la solución para la ecuación
 
 <br></br>
 
-```{solution}
+
 
 Sabemos que $4=2^{2}$
   
@@ -751,17 +753,16 @@ x=3
 
 Se concluye que la solución para la ecuación es $x=3$.
 
-```
 
 <br></br>
 
-```{example name="Crecimiento de la población"}
+```{example}
 Supongamos una población de bacterias en un medio nutritivo homogéno, y que haciendo un muestreo de la población a ciertos intervalos, se determina que esa población se duplica cada hora. Si, en el instante $t$, la cantidad de bacterias es $p(t)$, donde $t$ se mide en horas, y la población inicial es $p(0)=10$, entonces obtener una fórmula para la población de bacterias en cualquier instante de tiempo $t$.
 ```
 
 <br></br>
 
-```{solution}
+
 Sabemos que:
   
 \[
@@ -775,11 +776,11 @@ p(5)=2p(4)=2^{5}(10)\\
 En general
 $$p(t)=2^{t}(10)=10.2^{t} \qquad \text{población en cualquier instánte de tiempo } \ \ t.$$
   
-```
+
 
 <br></br>
 
-```{example name="Vida media del estroncio 90"}
+```{example}
 La vida media del estroncio $90$. ${}^{90}Sr$ es de $25$ años. Esto significa que la mitad del cualquier cantidad dada de  ${}^{90}Sr$ se desintregrará en $25$ años. Si una muestra de  ${}^{90}Sr$ tiene una masa de $24 mg$, encuentre una expresión para la masa $m(t)$ que queda después de $t$ años.
 ```
 
@@ -787,7 +788,7 @@ La vida media del estroncio $90$. ${}^{90}Sr$ es de $25$ años. Esto significa q
 <br></br>
 
 
-```{solution}
+
 Sabemos que:
   
 \[
@@ -803,8 +804,7 @@ Y también conocemos que $4=\dfrac{100}{25}$, $3=\dfrac{75}{25}$, $2=\dfrac{50}{
 
 En general
 $$m(t)=\dfrac{1}{2^{t/25}}(24)=24.2^{-t/25} \qquad \text{cantidad de masa en cualquier instánte de tiempo } \ \ t.$$
-  
-```
+
 
 
 
