@@ -1,7 +1,0 @@
-Package: placehorder
-type: Book
-Title: Matematicas Dos
-Version: 0.01
-Imports: bookdown, ggplot2
-Rmotes: rstudio/bookdown
-corro la construccion
