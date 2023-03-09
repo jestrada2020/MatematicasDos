@@ -207,3 +207,5 @@ exm:unnamed-chunk-8
 exm:unnamed-chunk-14
 exm:unnamed-chunk-16
 exm:unnamed-chunk-18
+dibujamos-funciones-mediante-curvas
+signos-de-la-derivada-de-una-función
