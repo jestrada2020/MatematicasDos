@@ -209,3 +209,17 @@ exm:unnamed-chunk-16
 exm:unnamed-chunk-18
 dibujamos-funciones-mediante-curvas
 signos-de-la-derivada-de-una-función
+sucesiones-y-seires
+sucesiones-y-seires-sucesiones-y-seires
+sucesiones-y-seires-sucesionesyseries
+conceptoLimitefuncion
+conceptoDeDerivadafuncion
+aplicacionDerivada
+DerivacionImplicita
+limitesParaUnaFuncion
+metodosDeDerivacion
+aplicacionDeLaDerivada
+derivacionImplicita
+aplicacionesDeLaDerivada
+sucesionesYSeries
+concepto-de-sucesión
