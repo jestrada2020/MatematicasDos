@@ -230,3 +230,4 @@ leyes-de-los-límites-para-las-sucesiones
 el-teorema-de-la-compresión-para-sucesiones
 thm:unnamed-chunk-9
 thm:unnamed-chunk-10
+estiramiento-y-compresión-de-una-gráfica-en-el-plano-xy
