@@ -185,6 +185,8 @@
 <li class="chapter" data-level="6" data-path="sucesionesYSeries.html"><a href="sucesionesYSeries.html"><i class="fa fa-check"></i><b>6</b> Sucesiones y Series</a>
 <ul>
 <li class="chapter" data-level="6.1" data-path="sucesionesYSeries.html"><a href="sucesionesYSeries.html#concepto-de-sucesión"><i class="fa fa-check"></i><b>6.1</b> Concepto de sucesión</a></li>
+<li class="chapter" data-level="6.2" data-path="sucesionesYSeries.html"><a href="sucesionesYSeries.html#leyes-de-los-límites-para-las-sucesiones"><i class="fa fa-check"></i><b>6.2</b> Leyes de los límites para las sucesiones</a></li>
+<li class="chapter" data-level="6.3" data-path="sucesionesYSeries.html"><a href="sucesionesYSeries.html#el-teorema-de-la-compresión-para-sucesiones"><i class="fa fa-check"></i><b>6.3</b> El teorema de la compresión para sucesiones</a></li>
 </ul></li>
 <li class="appendix"><span><b>Anexos</b></span></li>
 <li class="chapter" data-level="" data-path="referencias.html"><a href="referencias.html"><i class="fa fa-check"></i>Referencias</a></li>
@@ -225,6 +227,51 @@ N \ \ \  \ \longrightarrow \ \ R\\
 <p>De no existir el límite diremos que la sucesión <span class="math inline">\(\{a_{n}\}\)</span> diverge.</p>
 </div>
 <p><br></br></p>
+<div class="definition">
+<p><span id="def:unnamed-chunk-4" class="definition"><strong>Definición 6.2  </strong></span>Una sucesión <span class="math inline">\(\{a_{n}\}\)</span> converge a un límite <span class="math inline">\(L\)</span></p>
+<p>si para todo <span class="math inline">\(\epsilon &gt;0\)</span> hay un correspondiente <span class="math inline">\(N&gt;0\)</span> tal que</p>
+<p><span class="math display">\[
+\text{Si} \  \ n&gt;N \ \ \ \text{entonces} \ \ \ |a_{n}-L|&lt; \epsilon
+\]</span></p>
+</div>
+<p><br></br></p>
+<div class="theorem">
+<p><span id="thm:unnamed-chunk-5" class="theorem"><strong>Teorema 6.1  </strong></span>Si <span class="math inline">\(\lim_{x \to \infty}{f(x)}=L\)</span> y <span class="math inline">\(f(n)=a_{n}\)</span> cuando <span class="math inline">\(n\)</span> es un entero, entonces <span class="math inline">\(\lim_{n \to \infty}{a_{n}}=L\)</span></p>
+</div>
+<div class="definition">
+<p><span id="def:unnamed-chunk-6" class="definition"><strong>Definición 6.3  </strong></span>Si el <span class="math inline">\(\lim_{n \to \infty}{a_{n}}=\infty\)</span> significa que para todo número positivo <span class="math inline">\(M\)</span> existe un entero <span class="math inline">\(N\)</span> tal que:</p>
+<p><span class="math display">\[
+\text{Si} \  \ n&gt;N \ \ \ \text{entonces} \ \ \ a_{n} &gt; M
+\]</span></p>
+<p>Es decir la sucesión <span class="math inline">\(\{a_{n}\}\)</span> es divergente pero de una menera especial. Se dice que <span class="math inline">\(\{a_{n}\}\)</span> diverge a <span class="math inline">\(\infty\)</span></p>
+</div>
+</div>
+<div id="leyes-de-los-límites-para-las-sucesiones" class="section level2 hasAnchor" number="6.2">
+<h2><span class="header-section-number">6.2</span> Leyes de los límites para las sucesiones<a href="sucesionesYSeries.html#leyes-de-los-límites-para-las-sucesiones" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="theorem">
+<p><span id="thm:unnamed-chunk-7" class="theorem"><strong>Teorema 6.2  </strong></span>Si <span class="math inline">\(\{a_{n}\}\)</span> y <span class="math inline">\(\{b_{n}\}\)</span> son sucesiones convergentes y <span class="math inline">\(c\)</span> es una constante, entonces</p>
+<ol style="list-style-type: decimal">
+<li><p><span class="math inline">\(\lim_{n \to \infty}{(a_{n}+b_{n})}=\lim_{n \to \infty}{a_{n}}+\lim_{n \to \infty}{b_{n}}\)</span></p></li>
+<li><p><span class="math inline">\(\lim_{n \to \infty}{(a_{n}-b_{n})}=\lim_{n \to \infty}{a_{n}}-\lim_{n \to \infty}{b_{n}}\)</span></p></li>
+<li><p><span class="math inline">\(\lim_{n \to \infty}{ca_{n}}=c\lim_{n \to \infty}{a_{n}}\)</span></p></li>
+<li><p><span class="math inline">\(\lim_{n \to \infty}{c}=c\)</span></p></li>
+<li><p><span class="math inline">\(\lim_{n \to \infty}{(a_{n}.b_{n})}=\lim_{n \to \infty}{a_{n}}.\lim_{n \to \infty}{b_{n}}\)</span></p></li>
+<li><p><span class="math inline">\(\lim_{n \to \infty}{\left(\dfrac{a_{n}}{b_{n}}\right)}=\dfrac{\lim_{n \to \infty}{a_{n}}}{\lim_{n \to \infty}{b_{n}}}\)</span> si <span class="math inline">\(\lim_{n \to \infty}{b_{n}}\)</span> es diferente de cero.</p></li>
+<li><p><span class="math inline">\(\lim_{n \to \infty}{\left({a_{n}}\right)^q}={\left(\lim_{n \to \infty}{a_{n}}\right)^q}\)</span> si <span class="math inline">\(q&gt;0\)</span> y <span class="math inline">\(a_{n}&gt;0\)</span></p></li>
+</ol>
+</div>
+</div>
+<div id="el-teorema-de-la-compresión-para-sucesiones" class="section level2 hasAnchor" number="6.3">
+<h2><span class="header-section-number">6.3</span> El teorema de la compresión para sucesiones<a href="sucesionesYSeries.html#el-teorema-de-la-compresión-para-sucesiones" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="theorem">
+<p><span id="thm:unnamed-chunk-8" class="theorem"><strong>Teorema 6.3  </strong></span>Si <span class="math inline">\(a_{n}\leq b_{n} \leq c_{n}\)</span> para todo <span class="math inline">\(n&gt;n_{0}\)</span> y <span class="math inline">\(\lim_{n \to \infty}{a_{n}}=\lim_{n \to \infty}{c_{n}}=L\)</span>, entonces <span class="math inline">\(\lim_{n \to \infty}{b_{n}}=L\)</span></p>
+</div>
+<div class="theorem">
+<p><span id="thm:unnamed-chunk-9" class="theorem"><strong>Teorema 6.4  </strong></span>Si <span class="math inline">\(\lim_{n \to \infty}{|a_{n}|}=0\)</span>, entonces <span class="math inline">\(\lim_{n \to \infty}{a_{n}}=0\)</span></p>
+</div>
+<div class="theorem">
+<p><span id="thm:unnamed-chunk-10" class="theorem"><strong>Teorema 6.5  </strong></span>Si <span class="math inline">\(\lim_{n \to \infty}{a_{n}}=L\)</span> y la función <span class="math inline">\(f\)</span> es continua en <span class="math inline">\(L\)</span>, entonces <span class="math inline">\(\lim_{n \to \infty}{f(a_{n})}=f(L)\)</span></p>
+</div>
 
 </div>
 </div>
