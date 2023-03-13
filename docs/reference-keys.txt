@@ -232,3 +232,4 @@ thm:unnamed-chunk-9
 thm:unnamed-chunk-10
 estiramiento-y-compresión-de-una-gráfica-en-el-plano-xy
 combinación-aritmética-de-funciones
+dominio-de-una-combinación-aritmética-de-funciones
