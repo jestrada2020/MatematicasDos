@@ -236,3 +236,10 @@ dominio-de-una-combinación-aritmética-de-funciones
 def:unnamed-chunk-11
 def:unnamed-chunk-12
 thm:unnamed-chunk-13
+actividad-geogebra-funciones-de-dos-tramos-definidas-a-trozos-o-por-partes
+actividad-geogebra-funciones-de-tres-tramos-definidas-a-trozos-o-por-partes
+actividad-geogebra-ecuaciones-exponenciales-interpretación-gráfica
+actividad-geogebra-ecuaciones-logarítmicas-interpretación-gráfica
+actividad-geogebra-sistemas-de-ecuaciones-exponenciales-interpretación-gráfica
+actividad-geogebra-sistemas-de-ecuaciones-logarítmicas-interpretación-gráfica
+actividad-geogebra-cálculo-de-la-tangente-y-de-la-normal
