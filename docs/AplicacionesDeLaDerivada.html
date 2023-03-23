@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Capítulo 5 Derivación implícita | Curso de Matemáticas Dos UCES</title>
+  <title>Capítulo 4 Aplicaciones de la Derivada | Curso de Matemáticas Dos UCES</title>
   <meta name="description" content="Este texto se realizó usando bookdown package para escribir libros." />
   <meta name="generator" content="bookdown 0.33 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Capítulo 5 Derivación implícita | Curso de Matemáticas Dos UCES" />
+  <meta property="og:title" content="Capítulo 4 Aplicaciones de la Derivada | Curso de Matemáticas Dos UCES" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Este texto se realizó usando bookdown package para escribir libros." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Capítulo 5 Derivación implícita | Curso de Matemáticas Dos UCES" />
+  <meta name="twitter:title" content="Capítulo 4 Aplicaciones de la Derivada | Curso de Matemáticas Dos UCES" />
   
   <meta name="twitter:description" content="Este texto se realizó usando bookdown package para escribir libros." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="AplicacionesDeLaDerivada.html"/>
-<link rel="next" href="sucesionesYSeries.html"/>
+<link rel="prev" href="MetodosDeDerivacion.html"/>
+<link rel="next" href="derivacionImplicita.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -189,12 +189,12 @@
 <li class="chapter" data-level="4.2" data-path="AplicacionesDeLaDerivada.html"><a href="AplicacionesDeLaDerivada.html#ejemplo2-optimización"><i class="fa fa-check"></i><b>4.2</b> Ejemplo2 Optimización</a></li>
 <li class="chapter" data-level="4.3" data-path="AplicacionesDeLaDerivada.html"><a href="AplicacionesDeLaDerivada.html#ejemplo3-optimización"><i class="fa fa-check"></i><b>4.3</b> Ejemplo3 Optimización</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="DerivacionImplicita.html"><a href="DerivacionImplicita.html"><i class="fa fa-check"></i><b>5</b> Derivación implícita</a>
+<li class="chapter" data-level="5" data-path="derivacionImplicita.html"><a href="derivacionImplicita.html"><i class="fa fa-check"></i><b>5</b> Derivación implícita</a>
 <ul>
-<li class="chapter" data-level="5.1" data-path="DerivacionImplicita.html"><a href="DerivacionImplicita.html#variables-realcionadas"><i class="fa fa-check"></i><b>5.1</b> Variables realcionadas</a>
+<li class="chapter" data-level="5.1" data-path="derivacionImplicita.html"><a href="derivacionImplicita.html#variables-realcionadas"><i class="fa fa-check"></i><b>5.1</b> Variables realcionadas</a>
 <ul>
-<li class="chapter" data-level="5.1.1" data-path="DerivacionImplicita.html"><a href="DerivacionImplicita.html#ejemplo1-geogebra-vaciado-de-un-cono"><i class="fa fa-check"></i><b>5.1.1</b> Ejemplo1 Geogebra (Vaciado de un Cono)</a></li>
-<li class="chapter" data-level="5.1.2" data-path="DerivacionImplicita.html"><a href="DerivacionImplicita.html#ejemplo2-geogebra-llenado-de-un-cono"><i class="fa fa-check"></i><b>5.1.2</b> Ejemplo2 Geogebra (llenado de un Cono)</a></li>
+<li class="chapter" data-level="5.1.1" data-path="derivacionImplicita.html"><a href="derivacionImplicita.html#ejemplo1-geogebra-vaciado-de-un-cono"><i class="fa fa-check"></i><b>5.1.1</b> Ejemplo1 Geogebra (Vaciado de un Cono)</a></li>
+<li class="chapter" data-level="5.1.2" data-path="derivacionImplicita.html"><a href="derivacionImplicita.html#ejemplo2-geogebra-llenado-de-un-cono"><i class="fa fa-check"></i><b>5.1.2</b> Ejemplo2 Geogebra (llenado de un Cono)</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="sucesionesYSeries.html"><a href="sucesionesYSeries.html"><i class="fa fa-check"></i><b>6</b> Sucesiones y Series</a>
@@ -225,57 +225,21 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="DerivacionImplicita" class="section level1 hasAnchor" number="5">
-<h1><span class="header-section-number">Capítulo 5</span> Derivación implícita<a href="DerivacionImplicita.html#DerivacionImplicita" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="variables-realcionadas" class="section level2 hasAnchor" number="5.1">
-<h2><span class="header-section-number">5.1</span> Variables realcionadas<a href="DerivacionImplicita.html#variables-realcionadas" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="ejemplo1-geogebra-vaciado-de-un-cono" class="section level3 hasAnchor" number="5.1.1">
-<h3><span class="header-section-number">5.1.1</span> Ejemplo1 Geogebra (Vaciado de un Cono)<a href="DerivacionImplicita.html#ejemplo1-geogebra-vaciado-de-un-cono" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Autor:Allan Avendaño <a href="https://www.geogebra.org/m/P5kDZme7">Referencia web</a></p>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta charset="utf-8"/>
-<script src="https://www.geogebra.org/apps/deployggb.js"></script>
-<div id="ggb-elementAplicacionVa1">
-
+<div id="AplicacionesDeLaDerivada" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Capítulo 4</span> Aplicaciones de la Derivada<a href="AplicacionesDeLaDerivada.html#AplicacionesDeLaDerivada" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="ejemplo1-optimización" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Ejemplo1 Optimización<a href="AplicacionesDeLaDerivada.html#ejemplo1-optimización" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<iframe src="https://johnestradaclases.shinyapps.io/Aplicacion2MaximaArea/?showcase=0" width="672" height="1000px" data-external="1">
+</iframe>
 </div>
-<script>
-       var ggbAppAplicacionVa1 = new GGBApplet({"material_id":"P5kDZme7",
-       "width": 900,
-       "height": 460,
-       "showToolBar": false,
-       "showAlgebraInput": false,
-       "showMenuBar": false },
-       true);
-
-         window.addEventListener("load", function() {
-           ggbAppAplicacionVa1.inject('ggb-elementAplicacionVa1');
-      });
-</script>
+<div id="ejemplo2-optimización" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Ejemplo2 Optimización<a href="AplicacionesDeLaDerivada.html#ejemplo2-optimización" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<iframe src="https://johnestradanclase.shinyapps.io/ProblemaOptimizacion3/?showcase=0" width="672" height="1000px" data-external="1">
+</iframe>
 </div>
-<div id="ejemplo2-geogebra-llenado-de-un-cono" class="section level3 hasAnchor" number="5.1.2">
-<h3><span class="header-section-number">5.1.2</span> Ejemplo2 Geogebra (llenado de un Cono)<a href="DerivacionImplicita.html#ejemplo2-geogebra-llenado-de-un-cono" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Autor:Geraldin López Ospina <a href="https://www.geogebra.org/m/cqnsxhzn">Referencia web</a></p>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta charset="utf-8"/>
-<script src="https://www.geogebra.org/apps/deployggb.js"></script>
-<div id="ggb-elementAplicacionVa2">
+<div id="ejemplo3-optimización" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Ejemplo3 Optimización<a href="AplicacionesDeLaDerivada.html#ejemplo3-optimización" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 
-</div>
-<script>
-       var ggbAppAplicacionVa2 = new GGBApplet({"material_id":"cqnsxhzn",
-       "width": 900,
-       "height": 660,
-       "showToolBar": false,
-       "showAlgebraInput": false,
-       "showMenuBar": false },
-       true);
-
-         window.addEventListener("load", function() {
-           ggbAppAplicacionVa2.inject('ggb-elementAplicacionVa2');
-      });
-</script>
-
-</div>
 </div>
 </div>
             </section>
@@ -283,8 +247,8 @@
           </div>
         </div>
       </div>
-<a href="AplicacionesDeLaDerivada.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="sucesionesYSeries.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="MetodosDeDerivacion.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="derivacionImplicita.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

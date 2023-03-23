@@ -243,3 +243,7 @@ actividad-geogebra-ecuaciones-logarítmicas-interpretación-gráfica
 actividad-geogebra-sistemas-de-ecuaciones-exponenciales-interpretación-gráfica
 actividad-geogebra-sistemas-de-ecuaciones-logarítmicas-interpretación-gráfica
 actividad-geogebra-cálculo-de-la-tangente-y-de-la-normal
+LimitesParaUnaFuncion
+MetodosDeDerivacion
+AplicacionesDeLaDerivada
+SucesionesYSeries
