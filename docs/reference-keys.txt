@@ -247,3 +247,4 @@ LimitesParaUnaFuncion
 MetodosDeDerivacion
 AplicacionesDeLaDerivada
 SucesionesYSeries
+fig:sf-ogc
